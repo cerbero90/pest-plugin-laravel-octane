@@ -1,4 +1,4 @@
-# Pest Plugin Laravel Octane
+# ⛽ Laravel Octane (Pest Plugin)
 
 [![Author][ico-author]][link-author]
 [![PHP Version][ico-php]][link-php]
