@@ -5,8 +5,6 @@
 [![Laravel Version][ico-laravel]][link-laravel]
 [![Octane Compatibility][ico-octane]][link-octane]
 [![Build Status][ico-actions]][link-actions]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
 [![Latest Version][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
 [![PSR-12][ico-psr12]][link-psr12]
@@ -75,8 +73,6 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-actions]: https://img.shields.io/github/workflow/status/cerbero90/pest-plugin-laravel-octane/build?style=flat-square&logo=github
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-psr12]: https://img.shields.io/static/v1?label=compliance&message=PSR-12&color=blue&style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/cerbero90/pest-plugin-laravel-octane.svg?style=flat-square&logo=scrutinizer
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/cerbero90/pest-plugin-laravel-octane.svg?style=flat-square&logo=scrutinizer
 [ico-downloads]: https://img.shields.io/packagist/dt/cerbero/pest-plugin-laravel-octane.svg?style=flat-square
 
 [link-author]: https://twitter.com/cerbero90
@@ -86,7 +82,5 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-packagist]: https://packagist.org/packages/cerbero/pest-plugin-laravel-octane
 [link-actions]: https://github.com/cerbero90/pest-plugin-laravel-octane/actions?query=workflow%3Abuild
 [link-psr12]: https://www.php-fig.org/psr/psr-12/
-[link-scrutinizer]: https://scrutinizer-ci.com/g/cerbero90/pest-plugin-laravel-octane/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/cerbero90/pest-plugin-laravel-octane
 [link-downloads]: https://packagist.org/packages/cerbero/pest-plugin-laravel-octane
 [link-contributors]: ../../contributors
