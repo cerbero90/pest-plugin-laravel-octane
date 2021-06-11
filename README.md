@@ -25,16 +25,20 @@ composer require --dev cerbero/pest-plugin-laravel-octane
 
 ## Usage
 
-1. Create a new package by [using this template](https://github.com/cerbero90/skeleton/generate)
-1. Clone the newly created repository
-1. Run `php prefill.php`
-1. Delete `prefill.php`
-1. Review versions of PHP and Laravel to support in [composer.json](composer.json), [build.yml](.github/workflows/build.yml) and [README badges](README.md)
-1. Push changes to master
-1. Submit package to [Packagist](https://packagist.org/packages/submit)
-1. Add repository to [Scrutinizer](https://scrutinizer-ci.com/g/new)
-1. Initialize GitFlow
-1. Happy coding!
+Once the plugin is installed you are ready to go! Combine the elegant syntax of [Pest](https://pestphp.com/docs/writing-tests) and [Octane Testbench](https://github.com/cerbero90/octane-testbench#usage):
+
+```php
+test('Octane application')
+    ->assertOctaneCacheMissing('foo')
+    ->assertOctaneTableMissing('example', 'row')
+    ->assertOctaneTableCount('example', 0)
+    ->expectsConcurrencyResults([1, 2, 3])
+    ->get('octane/route')
+    ->assertOk()
+    ->assertOctaneCacheHas('foo', 'bar')
+    ->assertOctaneTableHas('example', 'row.votes', 123)
+    ->assertOctaneTableCount('example', 1);
+```
 
 ## Change log
 
